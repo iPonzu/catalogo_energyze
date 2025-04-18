@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,11 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Energyze Suplementos",
-  description: "Página principal",
+  title: "Slim-fit | Energyze Suplementos",
+  description: "Descrição sobre o slim-fit",
 };
 
-export default function RootLayout({
+export default function SlimFitLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
