@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,20 +23,14 @@ export default function PreTreinoLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
+    <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <link 
-          rel="icon" 
-          href="/iconhomepage.png" 
+          rel="icon"
+          href="/iconhomepage.png"
           type="image/png"
           sizes="any"
-        />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+          />
+      {children}
+    </div>
   );
 }

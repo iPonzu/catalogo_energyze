@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Metadata } from "next";
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Team Energyze",
   description: "A cada gota de suor, uma vitória!",
 };

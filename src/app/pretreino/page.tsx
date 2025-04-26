@@ -15,6 +15,7 @@ export default function Page() {
             alt="Pré-treino"
         />
       </div>
+      <_footer />
     </div>
   );
 }
