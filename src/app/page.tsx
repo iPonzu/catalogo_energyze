@@ -13,53 +13,62 @@ export default function Home() {
           height={350}
         />
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10;">
+      <div className="mt-40 grid grid-cols-2 md:grid-cols-4 gap-2">
+
       <Link
         className="flex flex-col items center group"
         href={"/creatina"}
       >
+        <div className="w-[400px] h-[250px] flex items-center justify-center">
         <Image
           src={"/assets/creatina.png"}
           alt="Creatina"
-          width={350}
-          height={350}
+          width={400}
+          height={400}
         />
+        </div>
       </Link>
 
       <Link
         className="flex flex-col items center group"
         href={"/pretreino"}
       >
+        <div className="w-[400px] h-[250px] flex items-center justify-center">
         <Image 
           src={"/assets/pre-treino.png"}
           alt="Pré Treino"
-          width={350}
-          height={350}
+          width={400}
+          height={400}
           />
+        </div>
       </Link>
 
       <Link
         className="flex flex-col items center group"
         href={"/slimfit"}
       >
+        <div className="w-[200px] h-[250px] flex items-center justify-center">
         <Image 
           src={"/assets/slimfit.png"}
           alt="Slim Fit"
-          width={110}
-          height={110}
+          width={120}
+          height={120}
         />
+        </div>
       </Link>
 
       <Link 
         className="flex flex-col items center group"
         href={"/whey"}
       >
+        <div className="w-[200px] h-[250px] flex items-center justify-center">
         <Image 
           src={"/assets/wheyprotein.png"}
           alt="Whey Protein"
-          width={110}
-          height={110}
+          width={120}
+          height={120}
         />
+        </div>
       </Link>
       </div>
     </div>

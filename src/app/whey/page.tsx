@@ -7,11 +7,11 @@ export default function Page() {
   return (
     <div className="static h-screen bg-energyze-gradient flex flex-col pt-10">
       <_menu />
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10">
+      <div className="mt-10 w-[1400px] h-[650px] flex items-center justify-center">
         <Image
             src={"/assets/wheyprotein.png"}
-            width={110}
-            height={110}
+            width={300}
+            height={300}
             alt="Whey Protein"
         />
       </div>
