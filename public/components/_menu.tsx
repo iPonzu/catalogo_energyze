@@ -31,9 +31,6 @@ export default function Menu() {
             <Link href="/pretreino">Pré-treino</Link>
           </li>
           <li>
-            <Link href="/slimfit">Slim-fit</Link>
-          </li>
-          <li>
             <Link href="/whey">Whey Protein</Link>
           </li>
         </ul>
