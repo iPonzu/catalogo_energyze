@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div className="static h-screen bg-energyze-gradient flex flex-col pt-10">
       <_menu />
-      <div className="h-[120px] flex flex-col md:flex-row items-center justify-center gap-2 p-2 mt-45  mr-40">
+      <div className="h-[120px] flex flex-col md:flex-row items-center justify-center gap-2 p-2 mt-45 mr-40">
       <div className="w-full md:w-1/3 flex justify-center">
         <Image
             src={"/assets/creatina.png"}

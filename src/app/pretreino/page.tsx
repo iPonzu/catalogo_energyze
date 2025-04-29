@@ -17,20 +17,27 @@ export default function Page() {
             alt="Pré-treino"
         />
       </div>
-      <div className="w-[300px] md:w 1/5 rounded 3x1 shadow-lg p-6 border-2 border-energyze-primary">
+      <div className="w-[450px] md:w 1/5 rounded 3x1 shadow-lg p-6 border-2 border-energyze-primary">
         <h1 className="text-3x1 text-white font-bold mb-5">Pré Treino Energyze</h1>
         <p className="text-white text-lg mb-6">
          O Pré-Treino Energyze é um suplemento potente 
          desenvolvido para aumentar a energia,
          foco e resistência durante os treinos. 
          Ideal para quem busca melhorar o desempenho 
-         e intensificar os resultados nas atividades físicas.
+         e intensificar os resultados nas atividades físicas. 
+         Em dois sabores, Pink Lemonade e Tangerina
         </p>
         <button
           className="bg-energyze-primary text-white font-bold py-2 px-4 border-2 rounded-md hover:transition-all hover:bg-purple-700 hover:border-black"
-          onClick={() => window.open("https://produto.mercadolivre.com.br/MLB-4045870721-energyze-creatina-monohidratada-po-pote-300g-_JM", "_blank")}
+          onClick={() => window.open("https://produto.mercadolivre.com.br/MLB-4045897809-energyze-pre-treino-pink-lemonade-pote-240g-_JM", "_blank")}
           >
-            Comprar agora
+            Pink Lemonade
+          </button>
+          <button
+          className="bg-energyze-primary text-white font-bold py-2 px-4 border-2 rounded-md hover:transition-all hover:bg-orange-400 hover:border-black ml-10"
+          onClick={() => window.open("https://produto.mercadolivre.com.br/MLB-4046100507-energyze-pre-treino-tangerina-pote-240g-_JM", "_blank")}
+          >
+            Tangerina
           </button>
       </div>
       </div>
