@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,30 +12,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Energyze Suplementos",
-  description: "Página principal",
+  title: "Creatina | Energyze Suplementos",
+  description: "Descrição sobre a creatina",
 };
 
-export default function RootLayout({
+export default function CreatinaLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
+    <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <link 
-          rel="icon" 
-          href="/iconhomepage.png" 
+          rel="icon"
+          href="/iconhomepage.png"
           type="image/png"
           sizes="any"
-        />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+          />
+      {children}
+    </div>
   );
 }
