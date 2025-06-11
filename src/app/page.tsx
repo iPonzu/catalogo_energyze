@@ -6,9 +6,8 @@ import "./globals.css"
 
 export default function Home() {
   return (
-    <div className="h-screen bg-energyze-gradient flex flex-col items-center space-between pt-10">
-      <div
-        className="object-top">
+    <div className="relative min-h-screen bg-energyze-gradient flex flex-col items-center space-between pt-10 py-1 px-14">
+      <div className="object-top">
         <Image
           src={"/assets/energyze_logo.png"}
           alt="Energyze Logo"
